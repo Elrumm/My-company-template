@@ -485,12 +485,11 @@ textarea {
   margin-top: 5px;
 }
 input:first-of-type {
-  /*псевдокласс, чтобы выбрать тег, который идет первым в документе */
   margin-right: 23px;
 }
 .button_block {
   display: flex;
-  justify-content: flex-end; /*отправить блок влево*/
+  justify-content: flex-end; 
 }
 input[type="submit"] {
   width: 165px;
